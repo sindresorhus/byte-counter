@@ -1,6 +1,6 @@
 {
 	"name": "byte-counter",
-	"version": "0.0.0",
+	"version": "0.1.0",
 	"description": "Count bytes passing through a stream",
 	"license": "MIT",
 	"repository": "sindresorhus/byte-counter",
@@ -62,7 +62,10 @@
 		"settings": {
 			"import-x/resolver": {
 				"node": {
-					"extensions": [".js", ".d.ts"]
+					"extensions": [
+						".js",
+						".d.ts"
+					]
 				}
 			}
 		}
